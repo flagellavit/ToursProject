@@ -5,6 +5,7 @@
 # Диаграмма последовательности процесса авторизации:
 ![image](https://github.com/flagellavit/ToursProject/assets/106932176/e0829c94-27bc-4bc9-a991-fa81edec6d70)
 ## SQL скрипт с данными для моделей:
+```
 GO
 INSERT [dbo].[Country] ([Country_Code], [Country_Name]) VALUES (N'AD', N'Andorra')
 INSERT [dbo].[Country] ([Country_Code], [Country_Name]) VALUES (N'AE', N'United Arab Emirates')
@@ -420,3 +421,4 @@ INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALU
 INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALUES (2, N'Иванов Иван Иванович', N'abcbacba', 3, N'BBB')
 INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALUES (3, N'Харченко Пётров Игорь', N'1c3ac2b2', 4, N'CCC')
 GO
+```
